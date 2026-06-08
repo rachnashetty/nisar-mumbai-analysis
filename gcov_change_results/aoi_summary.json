@@ -1,0 +1,67 @@
+{
+  "polygon_wgs84": {
+    "type": "Polygon",
+    "coordinates": [
+      [
+        [
+          70.8877,
+          18.5631
+        ],
+        [
+          73.819,
+          18.5631
+        ],
+        [
+          73.819,
+          20.1037
+        ],
+        [
+          70.8877,
+          20.1037
+        ],
+        [
+          70.8877,
+          18.5631
+        ]
+      ]
+    ]
+  },
+  "polarization_summaries": {
+    "HH": {
+      "valid_pixel_count": 254590739,
+      "approx_valid_area_sq_km": 25459.0739,
+      "mean_change_db": -0.2165180878117267,
+      "standard_deviation_change_db": 2.5464875912930296,
+      "mean_absolute_change_db": 1.977063064403013,
+      "sampled_percentiles_2_25_50_75_98_db": [
+        -5.517781963348389,
+        -1.8111183047294617,
+        -0.21854400634765625,
+        1.3659488558769226,
+        5.1400620269775406
+      ],
+      "sampled_abs_change_p95_db": 5.062045574188232,
+      "sampled_fraction_ge_positive_p95": 0.02130055664596673,
+      "sampled_fraction_le_negative_p95": 0.028701052157405323,
+      "sample_count": 248632
+    },
+    "HV": {
+      "valid_pixel_count": 254590739,
+      "approx_valid_area_sq_km": 25459.0739,
+      "mean_change_db": -0.21870210052196876,
+      "standard_deviation_change_db": 2.5749126055671714,
+      "mean_absolute_change_db": 2.0248059631551767,
+      "sampled_percentiles_2_25_50_75_98_db": [
+        -5.615901947021484,
+        -1.884448766708374,
+        -0.22008705139160156,
+        1.4424114227294922,
+        5.147760543823242
+      ],
+      "sampled_abs_change_p95_db": 5.128081798553467,
+      "sampled_fraction_ge_positive_p95": 0.020363428681746516,
+      "sampled_fraction_le_negative_p95": 0.029638180121625536,
+      "sample_count": 248632
+    }
+  }
+}

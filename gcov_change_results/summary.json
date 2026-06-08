@@ -1,0 +1,46 @@
+{
+  "earlier_file": "NISAR_L2_PR_GCOV_005_113_A_011_4005_DHDH_A_20251118T003447_20251118T003522_X05009_N_F_J_001.h5",
+  "later_file": "NISAR_L2_PR_GCOV_006_113_A_011_4005_DHDH_A_20251130T003448_20251130T003522_X05010_F_F_J_001.h5",
+  "epsg": 32643,
+  "shape": [
+    33408,
+    34056
+  ],
+  "polarization_summaries": {
+    "HH": {
+      "valid_pixel_count": 605974401,
+      "mean_change_db": -0.14111675573475857,
+      "standard_deviation_change_db": 2.595987438932481,
+      "mean_absolute_change_db": 2.002297372850384,
+      "sampled_change_db_percentiles_2_25_50_75_98": [
+        -5.578345317840576,
+        -1.753774881362915,
+        -0.15540766716003418,
+        1.4580034017562866,
+        5.381098213195808
+      ],
+      "sampled_large_change_threshold_abs_db_p95": 5.1830220222473145,
+      "sampled_fraction_large_increase": 0.02310993950454561,
+      "sampled_fraction_large_decrease": 0.026890060495454393,
+      "sample_count_for_percentiles": 591780
+    },
+    "HV": {
+      "valid_pixel_count": 605974401,
+      "mean_change_db": -0.1569798831511493,
+      "standard_deviation_change_db": 2.6683444526708686,
+      "mean_absolute_change_db": 2.0835094460155092,
+      "sampled_change_db_percentiles_2_25_50_75_98": [
+        -5.739671096801758,
+        -1.852144718170166,
+        -0.15494251251220703,
+        1.5350253582000732,
+        5.427493362426761
+      ],
+      "sampled_large_change_threshold_abs_db_p95": 5.302250385284424,
+      "sampled_fraction_large_increase": 0.02203521578965156,
+      "sampled_fraction_large_decrease": 0.02796478421034844,
+      "sample_count_for_percentiles": 591780
+    }
+  },
+  "note": "Percentiles and large-change fractions use deterministic spatial sampling; mean and standard deviation use all valid pixels."
+}

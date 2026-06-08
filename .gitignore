@@ -1,0 +1,15 @@
+.DS_Store
+.venv/
+__pycache__/
+*.py[cod]
+
+# NASA Earthdata products are multi-gigabyte and require Earthdata access.
+*.h5
+
+# Full-resolution generated rasters are too large for a normal GitHub repository.
+*.tif
+*.tiff
+
+# Temporary download and plotting files.
+partial_*
+.matplotlib/
