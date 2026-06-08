@@ -1,7 +1,7 @@
 # NISAR GCOV Change Analysis
 
 This project compares four NISAR Level-2 GCOV acquisitions over ascending path
-113, frame 11, covering part of western India and the adjacent Arabian Sea:
+113, frame 11, focusing on Mumbai in western India and the adjacent Arabian Sea:
 
 - November 18, 2025
 - November 30, 2025
